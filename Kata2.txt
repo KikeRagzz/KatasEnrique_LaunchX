@@ -1,0 +1,54 @@
+Microsoft Windows [Versión 10.0.22000.434]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\ramos>python3 "c:/Users/ramos/Documents/Launch X - Microsoft/Onboarding/Task_1.py"
+3
+
+C:\Users\ramos>cd "c:/Users/ramos/Documents/Launch X - Microsoft/Onboarding"
+
+c:\Users\ramos\Documents\Launch X - Microsoft\Onboarding>python3 -m venv env
+
+c:\Users\ramos\Documents\Launch X - Microsoft\Onboarding>env\bin\activate
+El sistema no puede encontrar la ruta especificada.
+
+c:\Users\ramos\Documents\Launch X - Microsoft\Onboarding>env\bin\activate
+"env\bin\activate" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+c:\Users\ramos\Documents\Launch X - Microsoft\Onboarding>env\Scripts\activate
+
+(env) c:\Users\ramos\Documents\Launch X - Microsoft\Onboarding>pip install python-dateutil
+Collecting python-dateutil
+  Using cached python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Collecting six>=1.5
+  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Installing collected packages: six, python-dateutil
+Successfully installed python-dateutil-2.8.2 six-1.16.0
+WARNING: You are using pip version 21.2.4; however, version 22.0.3 is available.
+You should consider upgrading via the 'c:\Users\ramos\Documents\Launch X - Microsoft\Onboarding\env\Scripts\python.exe -m pip install --upgrade pip' command.
+
+(env) c:\Users\ramos\Documents\Launch X - Microsoft\Onboarding>pip freeze
+python-dateutil==2.8.2
+six==1.16.0
+
+(env) c:\Users\ramos\Documents\Launch X - Microsoft\Onboarding>deactivate
+c:\Users\ramos\Documents\Launch X - Microsoft\Onboarding>pip freeze
+cycler==0.11.0
+fonttools==4.29.1
+kiwisolver==1.3.2
+matplotlib==3.5.1
+numpy==1.22.1
+packaging==21.3
+Pillow==9.0.1
+pyparsing==3.0.7
+python-dateutil==2.8.2
+six==1.16.0
+
+c:\Users\ramos\Documents\Launch X - Microsoft\Onboarding>pip date
+ERROR: unknown command "date"
+
+c:\Users\ramos\Documents\Launch X - Microsoft\Onboarding>pipdate
+"pipdate" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+c:\Users\ramos\Documents\Launch X - Microsoft\Onboarding>
